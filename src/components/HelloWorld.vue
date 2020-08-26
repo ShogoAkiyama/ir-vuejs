@@ -1,0 +1,63 @@
+// <template>
+// 	<div class="hello">
+// 		<h1>{{ msg }}</h1>
+// 		<button @click="apiPublic">public</button>
+// 		<button @click="apiPrivate">private</button>
+// 		<button @click="fetchPrices">fetchPrices</button>
+// 		<tr v-for="(item, index) in prices" :key="index">
+// 			<td>{{ item.ID }}</td>
+// 			<td>{{ item.CODE }}</td>
+// 			<td>{{ item.Close }}</td>
+// 		</tr>
+// 	</div>
+// </template>
+
+// <script>
+// import axios from 'axios';
+// export default {
+// 	name: 'HelloWorld',
+// 	data() {
+// 		return {
+// 			msg: 'Welcom to Your Vue App',
+// 			prices: []
+// 		}
+// 	},
+// 	methods: {
+// 		apiPublic: async function () {
+// 			let res = await axios.get('http://localhost:8000/public')
+// 			this.msg = res.data
+// 		},
+// 		apiPrivate: async function () {
+// 			let res = await axios.get('http://localhost:8000/private')
+// 			this.msg = res.data
+// 		},
+// 		fetchPrices: async function () {
+// 			let res = await axios.get('http://localhost:8000/fetchPrices')
+// 			this.prices = res.data
+// 			this.$store.state.count = [1, 2, 2]
+// 		}
+// 	}
+// }
+// </script>
+
+// <!-- Add 'scoped' attribute to limit CSS to this component only -->
+// <style scoped>
+// h1, h2 {
+//   font-weight: normal;
+// }
+// ul {
+//   list-style-type: none;
+//   padding: 0;
+// }
+// li {
+//   display: inline-block;
+//   margin: 0 10px;
+// }
+// a {
+//   color: #42b983;
+// }
+// button {
+//   margin: 10px 0;
+//   padding: 10px;
+// }
+// </style>
