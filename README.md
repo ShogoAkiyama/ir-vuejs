@@ -1,24 +1,5 @@
-# ir-vuejs
+検索ボックスから検索するワードを入力することで、関連テーマの会社群の平均株価が表示されます。
 
-## Project setup
-```
-yarn install
-```
+特に、新型コロナウイルスの影響により、自動車や観光の平均株価は落ちこんでいる一方で、リモートや医療などの株価は成長していることが分かります。
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![Screenshot at 2020-08-24 22-18-18](https://user-images.githubusercontent.com/28297015/91845926-01a38f80-ec95-11ea-8f10-276565c2b5ab.png)
