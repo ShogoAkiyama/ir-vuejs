@@ -22,6 +22,8 @@ pnpm-debug.log*
 *.sw?
 
 backend/data/*
+!backend/data/stock_data
+backend/data/stock_data/*
 !backend/data/stock_data/0000.T.csv
 !backend/data/stock_data/0001.T.csv
 backend/jupyter
