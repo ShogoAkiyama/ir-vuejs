@@ -6,7 +6,6 @@
 
 <script>
 import StockChart from './components/StockChart';
-// import HelloWorld from './components/HelloWorld.vue';
 
 export default {
   components: {
